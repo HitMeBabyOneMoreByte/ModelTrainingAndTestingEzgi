@@ -93,21 +93,6 @@ train = train[["comment_text"] + all_labels].dropna()
 train[all_labels] = (train[all_labels] >= .5).astype(int)
 print("train set başarıyla okundu...")
 
-# X = df["comment_text"].values.reshape(-1,1)
-# Y = df[all_lbl].values.astype(np.float32)
-
-# X_tv, Y_tv, X_test, Y_test = iterative_train_test_split(X, Y, test_size=.05)
-# X_train, Y_train, X_val,  Y_val = iterative_train_test_split(
-#     X_tv, Y_tv, test_size=.1579)                 # 15 %
-
-# def to_df(x, y):
-#     d = pd.DataFrame({"comment_text": x.flatten()})
-#     d[all_lbl] = y
-#     return d
-
-# train, val, test = map(to_df, (X_train, X_val, X_test), (Y_train, Y_val, Y_test))
-# print(f"Train {len(train)} | Val {len(val)} | Test {len(test)}")
-
 # === pos_weight tekrar tanımlanmalı (çünkü model init'te lazım)
 
 pos_n = train[normal_labels].sum(0).values
