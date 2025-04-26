@@ -58,8 +58,8 @@ python ezgi_test.py
 - 
 ## Resources
 
-- [Download Trained Models, Tokenizer and Dataset
-(saved_model_n/, saved_model_i/ and saved_tokenizer/)]((https://drive.google.com/drive/folders/179o12QLpj2XlzKGcGkmqfd0RMX-mCX0y?usp=drive_link))
+- [Download Trained Models, Tokenizer, and Dataset (saved_model_n/, saved_model_i/, and saved_tokenizer/)](https://drive.google.com/drive/folders/179o12QLpj2XlzKGcGkmqfd0RMX-mCX0y?usp=drive_link)
+
 
 
 ## Model Architecture
