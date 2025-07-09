@@ -92,4 +92,4 @@ python ezgi_test.py
   
 
 ## About the Project
-This project was developed as part of a graduation project. The development was completed in April 2025.
+This project was developed as part of a university graduation project. The development was completed in April 2025.
