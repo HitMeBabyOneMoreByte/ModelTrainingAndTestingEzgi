@@ -87,8 +87,9 @@ python ezgi_test.py
 - scikit-multilearn
 - safetensors
 
-## Authors
+## Developers
 - Sena Ezgi Anadollu
+  
 
-## License
-This project is for academic and research purposes.
+## About the Project
+This project was developed as part of a graduation project. The development was completed in April 2025.
